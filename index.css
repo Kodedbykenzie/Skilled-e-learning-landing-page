@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: rgb(225, 225, 225);
+}
+
+.header-container button {
+    float: right;
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: rgb(19, 24, 64);
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+}
+
+.header-container button:hover {
+    background-image: linear-gradient( rgb(123, 123, 226), rgb(94, 57, 121), rgb(238, 130, 238));
+}
+
+.header-container img {
+    width: 89px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.container button {
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+    color: #fff;
+    background-image: linear-gradient(to bottom right, rgb(255, 107, 79), rgb(243, 56, 145));
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+}
+
+.container button:hover {
+    background-image: linear-gradient( rgb(123, 123, 226), rgb(94, 57, 121), rgb(238, 130, 238));
+}
+
+img {
+    width: 100%;
+}
+
+.image {
+    flex-basis: 50%
+}
